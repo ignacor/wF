@@ -1,0 +1,407 @@
+/* Globales */
+body {
+    background-color: rgb(15, 15, 15) !important;
+    color: white !important;
+}
+
+.cont {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+/* NavBar */
+
+.navbs {
+    background-color: black !important;
+    color: white !;
+}
+
+.navbs a {
+    color: white !important;
+}
+
+/* Eslogan */
+.bienv {
+    height: 700px;
+}
+
+.eslogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.but {
+    font-size: 30px;
+    background-color: black;
+    color: yellow;
+    border: 2px solid yellow;
+    padding: 5px;
+    margin: 25px;
+    font-family: monospace;
+}
+
+.imgstyle {
+    width: 60%;
+    height: 100%;
+}
+@media (max-width: 426px) {
+    
+.eslogan {
+    font-size: 40px;
+}
+    .imgstyle {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+/* Trabajo */
+
+
+.h2sty {
+    font-size: 40px;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Vogue';
+}
+
+.imgcont {
+    width: 100%;
+    padding: 10px;
+    transition: all 500ms ease-out;
+}
+
+
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
+.contenedor figure {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.contenedor figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedor figure .capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #c5c82ec0;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    padding-top: 25%
+}
+
+
+.contenedor figure:hover>.capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media (max-width: 1024px) {
+}
+@media (max-width: 426px) {
+    .contenedor {
+        height: 100%;
+    }
+
+    .contenedor figure {
+        margin: 1px;
+    }
+
+    .contenedor figure img {
+        width: 120%;
+        height: 20vh;
+    }
+    .contenedor figure .capa h3 {
+        font-size: 20px;
+        padding-top: 0%
+    }
+    .contenedor figure .capa {
+        font-size: 10px;
+        padding-top: 0%
+    }
+    .contenedor figure .capa .abog {
+        font-size: 14px;
+        padding-top: 0%
+    }
+
+
+}
+
+@media (max-width: 376px) {
+    .contenedor {
+        height: 20vh;
+    }
+
+    .h2sty {
+        font-size: 25px;
+    }
+
+    .contenedor figure {
+        margin: 1px;
+    }
+
+    .contenedor figure img {
+        width: 100%;
+        height: 100%;
+    }
+ 
+    .abj{ 
+        width: 150% !important;
+    }
+    .contenedor figure .capa {
+        padding-top: 0%
+    }
+    .contenedor figure .capa .abog {
+        font-size: 13px;
+        padding-top: 0%
+    }
+
+
+
+
+}
+@media (max-width: 321px) {
+
+
+    .contenedor figure {
+        margin: 1px;
+    }
+
+    .contenedor figure .capa h3 {
+        font-size: 14px;
+        padding-top: 0%
+    }
+    .contenedor figure .capa {
+        font-size: 10px;
+        padding-top: 0%
+    }
+    .contenedor figure .capa .abog {
+        font-size: 11px;
+        padding-top: 0%
+    }
+
+
+
+
+}
+/* Team */
+.cont1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.equipoimg {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.h2team {
+    font-size: 20px;
+    text-align: center;
+}
+
+.h3team {
+    font-size: 15px;
+    text-align: center;
+}
+
+.textoteam {
+    background-color: #C6C82E;
+    color: black;
+    border-radius: 20px;
+
+}
+
+.pteam {
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 25px;
+    font-family: 'Trebuchet MS';
+}
+
+@media (max-width: 1025px) {
+
+    .pteam {
+        font-size: 20px;
+        letter-spacing: 0px;
+        padding: 5px;
+    }
+
+}
+
+@media (max-width: 769px) {
+    .equipoimg {
+        width: 150px;
+        height: 150px;
+        margin: 2px;
+    }
+
+    .h2team {
+        font-size: 15px;
+    }
+
+    .h3team {
+        font-size: 15px;
+    }
+
+    .pteam {
+        font-size: 15px;
+        letter-spacing: 0px;
+        padding: 10px;
+    }
+
+}
+
+@media (max-width: 426px) {
+    .equipoimg {
+        width: 100px;
+        height: 100px;
+        margin: 2px;
+    }
+
+    .h2team {
+        font-size: 10px;
+    }
+
+    .h3team {
+        font-size: 10px;
+    }
+
+    .pteam {
+        font-size: 10px;
+        letter-spacing: 0px;
+        padding: 5px;
+    }
+
+}
+
+/* Contacto */
+.inputname {
+    border: 5px solid #C6C82E;
+    background-color: #C6C82E;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    color: black;
+}
+
+.inputnum {
+    border: 5px solid #C6C82E;
+    background-color: #C6C82E;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    margin-top: 25px;
+    color: black;
+}
+
+.inputex {
+    border: 5px solid #C6C82E;
+    background-color: #C6C82E;
+    border-radius: 20px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    color: black;
+
+}
+
+.inputbut {
+    border: 5px solid #C6C82E;
+    background-color: #C6C82E;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    width: 30%;
+    height: 40px;
+    margin-top: 10px;
+
+}
+
+@media (max-width: 426px) {
+
+    .inputnum {
+        margin-top: 0px;
+    }
+
+}
+
+
+@media (max-width: 321px) {
+
+    .inputname {
+        height: 30px;
+        width: 140px;
+    }
+}
+
+
+
+/* Footer */
+.contfot {
+    border-top: 0.5px solid rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.h1fot {
+    font-size: 20px;
+    font-family: 'Vogue';
+
+}
+
+.redes {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.h3fot {
+    font-size: 15px;
+}
+.copy{
+    font-size: 10px;
+    color: grey;
+}
